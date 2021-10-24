@@ -17,7 +17,7 @@ public class cherrycollector : MonoBehaviour
         {
             Destroy(collision.gameObject);
             cherry++;
-            cherrytext.text = "cherry;" + cherry;
+            cherrytext.text = "cherry:"+ cherry.ToString() +"/9";
         }
     }
 }
