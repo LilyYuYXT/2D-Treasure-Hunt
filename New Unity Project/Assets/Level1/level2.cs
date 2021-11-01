@@ -15,12 +15,12 @@ public class level2 : MonoBehaviour
     void Update()
     {
         
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.name=="rock")
+   
+  
+        if (Input.GetKeyDown("p"))
         {
             Completelevel();
+            Debug.Log("NONONONONO");
         }
     }
     private void Completelevel()
